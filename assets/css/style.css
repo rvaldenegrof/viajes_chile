@@ -9,7 +9,7 @@ body {
 }
 
 .horizontal {
-    height: 10px;
+    border-top: 1px solid #ffffff;
 }
 
 .fas {
