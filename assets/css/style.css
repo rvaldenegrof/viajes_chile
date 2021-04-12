@@ -5,7 +5,8 @@ body {
 }
 
 .navbar {
-    background-color: transparent !important;
+    transition: all 1s ease;
+    /*background-color: transparent !important;*/
 }
 
 .fas {
