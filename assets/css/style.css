@@ -1,0 +1,24 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.horizontal {
+    height: 10px;
+}
+
+.fas {
+    padding: 5%;
+    height: 20%;
+    width: 100%;
+}
+.col p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
