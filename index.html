@@ -112,27 +112,18 @@
             <hr class="horizontal bg-info">
             <div class="card-deck">
                 <div class="card bg-info text-light">
-                    <img class="card-img-top" src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <a href="#destacados"><img class="card-img-top" src="assets/img/card1.jpg" data-toggle="modal" class="card-img-top" alt="..." data-target="#patagonia"></a>
                     <div class="card-body">
-                        <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                        <h5 class="card-title">PATAGONIA SALVAJE</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional
                             content. This content is a little bit longer.</p>
                     </div>
                 </div>
                 <div class="card bg-info text-light">
-                    <img class="card-img-top" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <a href="#destacados"><img class="card-img-top" src="assets/img/card2.jpg" data-toggle="modal" class="card-img-top" alt="..." data-target="#montes"></a>
                     <div class="card-body">
-                        <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card bg-info text-light">
-                    <img class="card-img-top" src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">PLATEADA</h5>
+                        <h5 class="card-title">MONTES INDÓMITOS</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional
                             content.
@@ -140,9 +131,19 @@
                     </div>
                 </div>
                 <div class="card bg-info text-light">
-                    <img class="card-img-top" src="assets/img/card4.jpg" class="card-img-top" alt="..." data-target="#asado">
+                    <a href="#destacados"><img class="card-img-top" src="assets/img/card3.jpg" data-toggle="modal" class="card-img-top" alt="..." data-target="#salar"></a>
                     <div class="card-body">
-                        <h5 class="card-title">PLATEADA</h5>
+                        <h5 class="card-title">SALAR DE ATACAMA</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content.
+                            This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+                <div class="card bg-info text-light">
+                    <a href="#destacados"><img class="card-img-top" src="assets/img/card4.jpg" data-toggle="modal" class="card-img-top" alt="..." data-target="#bosques"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">BÓSQUES VALDIVIANOS</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional
                             content.
@@ -153,6 +154,100 @@
         </div>
     </section>
     <!--FIN SECCION DESTACADOS-->
+
+    <!--MODALES-->
+    <div class="modal fade" id="patagonia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PATAGONIA SALVAJE</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid my-3" src="assets/img/card1.jpg" class="card-img-top" alt="asado">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro in velit veritatis? Voluptatibus odit adipisci a alias repudiandae praesentium eius minima obcaecati amet eligendi maxime officiis, hic quae placeat? Fugiat!</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis autem voluptatibus, et quos suscipit eaque ullam quis. Consequuntur commodi, aperiam, in praesentium dolorem maxime incidunt nemo ullam numquam ratione fugit.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil sit doloribus, placeat vitae consequuntur repellendus nemo velit tempora quidem, temporibus delectus ullam laborum nam, eaque fuga illum blanditiis ut.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="montes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">MONTES INDÓMITOS</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid my-3" src="assets/img/card2.jpg" class="card-img-top" alt="asado">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro in velit veritatis? Voluptatibus odit adipisci a alias repudiandae praesentium eius minima obcaecati amet eligendi maxime officiis, hic quae placeat? Fugiat!</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis autem voluptatibus, et quos suscipit eaque ullam quis. Consequuntur commodi, aperiam, in praesentium dolorem maxime incidunt nemo ullam numquam ratione fugit.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil sit doloribus, placeat vitae consequuntur repellendus nemo velit tempora quidem, temporibus delectus ullam laborum nam, eaque fuga illum blanditiis ut.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="salar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">SALAR DE ATACAMA</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid my-3" src="assets/img/card3.jpg" class="card-img-top" alt="asado">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro in velit veritatis? Voluptatibus odit adipisci a alias repudiandae praesentium eius minima obcaecati amet eligendi maxime officiis, hic quae placeat? Fugiat!</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis autem voluptatibus, et quos suscipit eaque ullam quis. Consequuntur commodi, aperiam, in praesentium dolorem maxime incidunt nemo ullam numquam ratione fugit.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil sit doloribus, placeat vitae consequuntur repellendus nemo velit tempora quidem, temporibus delectus ullam laborum nam, eaque fuga illum blanditiis ut.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="bosques" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">BOSQUES VALDIVIANOS</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid my-3" src="assets/img/card4.jpg" class="card-img-top" alt="asado">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro in velit veritatis? Voluptatibus odit adipisci a alias repudiandae praesentium eius minima obcaecati amet eligendi maxime officiis, hic quae placeat? Fugiat!</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis autem voluptatibus, et quos suscipit eaque ullam quis. Consequuntur commodi, aperiam, in praesentium dolorem maxime incidunt nemo ullam numquam ratione fugit.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil sit doloribus, placeat vitae consequuntur repellendus nemo velit tempora quidem, temporibus delectus ullam laborum nam, eaque fuga illum blanditiis ut.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--MODALES-->
 
 
     <!--CONTACTO SECTION-->
