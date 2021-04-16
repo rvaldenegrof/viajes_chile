@@ -5,6 +5,8 @@ $(function () {
     });
     /****TOTLTIPS******/
     $('[data-toggle="tooltip"]').tooltip()
+    /****POPOVER******/
+    $('[data-toggle="popover"]').popover()
 });
  
 
